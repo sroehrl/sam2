@@ -1,0 +1,325 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "98fca8561f60ef262f21f59b46963868",
+    "packages": [
+        {
+            "name": "league/commonmark",
+            "version": "dev-latest",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "6fb79586cdb7c33bf0c97927a4b53cee2985fe80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/6fb79586cdb7c33bf0c97927a4b53cee2985fe80",
+                "reference": "6fb79586cdb7c33bf0c97927a4b53cee2985fe80",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^7.2.5 || ^8.0"
+            },
+            "conflict": {
+                "scrutinizer/ocular": "1.7.*"
+            },
+            "require-dev": {
+                "cebe/markdown": "~1.0",
+                "commonmark/commonmark.js": "0.29.1",
+                "composer/package-versions-deprecated": "^1.8",
+                "erusev/parsedown": "~1.0",
+                "ext-json": "*",
+                "github/gfm": "0.29.0",
+                "michelf/php-markdown": "~1.4",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^8.5",
+                "scrutinizer/ocular": "^1.5",
+                "symfony/finder": "^4.2",
+                "unleashedtech/php-coding-standard": "^2.2.1",
+                "vimeo/psalm": "^3.11"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-latest": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\CommonMark\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Highly-extensible PHP Markdown parser which fully supports the CommonMark spec and Github-Flavored Markdown (GFM)",
+            "homepage": "https://commonmark.thephpleague.com",
+            "keywords": [
+                "commonmark",
+                "flavored",
+                "gfm",
+                "github",
+                "github-flavored",
+                "markdown",
+                "md",
+                "parser"
+            ],
+            "funding": [
+                {
+                    "url": "https://enjoy.gitstore.app/repositories/thephpleague/commonmark",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.colinodell.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/colinpodell/10.00",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/colinodell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/colinodell",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/league/commonmark",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-27T13:33:54+00:00"
+        },
+        {
+            "name": "mnsami/composer-custom-directory-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mnsami/composer-custom-directory-installer.git",
+                "reference": "a4f6eec8a2d15be977561f22f4457e805d98108d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mnsami/composer-custom-directory-installer/zipball/a4f6eec8a2d15be977561f22f4457e805d98108d",
+                "reference": "a4f6eec8a2d15be977561f22f4457e805d98108d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Composer\\CustomDirectoryInstaller\\LibraryPlugin",
+                    "Composer\\CustomDirectoryInstaller\\PearPlugin",
+                    "Composer\\CustomDirectoryInstaller\\PluginPlugin"
+                ],
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\CustomDirectoryInstaller": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mina Nabil Sami",
+                    "email": "mina.nsami@gmail.com"
+                }
+            ],
+            "description": "A composer plugin, to help install packages of different types in custom paths.",
+            "keywords": [
+                "composer",
+                "composer-installer",
+                "composer-plugin"
+            ],
+            "time": "2020-06-12T10:15:35+00:00"
+        },
+        {
+            "name": "neoan3-apps/db",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-db.git",
+                "reference": "b2859d08f44b20f8174fabfba51a4e8becec70f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-db/zipball/b2859d08f44b20f8174fabfba51a4e8becec70f0",
+                "reference": "b2859d08f44b20f8174fabfba51a4e8becec70f0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-mysqli": "*",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Roehrl",
+                    "homepage": "http://neoan.us"
+                }
+            ],
+            "description": "neoan3 mysqli class",
+            "time": "2019-09-10T17:54:43+00:00"
+        },
+        {
+            "name": "neoan3-apps/template",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-template.git",
+                "reference": "f03c7cb853dbcc9019caa26ad785ff1c73f64ba6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-template/zipball/f03c7cb853dbcc9019caa26ad785ff1c73f64ba6",
+                "reference": "f03c7cb853dbcc9019caa26ad785ff1c73f64ba6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "neoan3 minimal template engine",
+            "time": "2020-05-08T02:59:29+00:00"
+        },
+        {
+            "name": "neoan3-apps/transformer",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-transformer.git",
+                "reference": "49b825a47159887f17841f9927424a3c3acd419d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-transformer/zipball/49b825a47159887f17841f9927424a3c3acd419d",
+                "reference": "49b825a47159887f17841f9927424a3c3acd419d",
+                "shasum": ""
+            },
+            "require": {
+                "neoan3-apps/db": "^0.2.1",
+                "neoan3-model/index": "^0.0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Roehrl",
+                    "email": "neoan@neoan.us"
+                }
+            ],
+            "description": "Model abstraction utilizing neoan3's model transformers",
+            "time": "2019-09-28T00:28:18+00:00"
+        },
+        {
+            "name": "neoan3-model/index",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-indexModel.git",
+                "reference": "3d432ebfd56cbbe794a9f6a6fc912b173d496acf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-indexModel/zipball/3d432ebfd56cbbe794a9f6a6fc912b173d496acf",
+                "reference": "3d432ebfd56cbbe794a9f6a6fc912b173d496acf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "mnsami/composer-custom-directory-installer": "1.1.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.4@dev"
+            },
+            "type": "library",
+            "extra": {
+                "installer-paths": {
+                    "./frame/{$name}": [],
+                    "./model/{$name}": [],
+                    "./component/{$name}": []
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-09-13T23:01:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "league/commonmark": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.0",
+        "ext-json": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
